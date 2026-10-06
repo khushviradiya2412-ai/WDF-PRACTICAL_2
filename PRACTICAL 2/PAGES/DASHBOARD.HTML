@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard - Student Hub</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <center>      
+        <h1>Student Hub</h1>
+        <h2> Dashboard</h2>
+
+        
+        <div class="student-info">
+            <p><strong>Student Name  :  </strong> Khush Viradiya <br> <strong>Roll No  :  </strong> 25DCE123 <br> <strong>Branch  :  </strong> CE</p>
+        </div>
+
+
+
+        <h3>Academic Overview</h3>
+        <table border="1" cellpadding="10">
+            <tr>
+                <th>Metric</th>
+                <th>Details</th>
+            </tr>
+            <tr class="clickable-row" onclick="viewDetails('subjects')">
+                <td> Total Subjects</td>
+                <td>6</td>
+            </tr>
+            <tr class="clickable-row" onclick="viewDetails('attendance')">
+                <td> Attendance</td>
+                <td>92%</td>
+            </tr>
+            <tr class="clickable-row" onclick="viewDetails('assignments')">
+                <td> Assignments</td>
+                <td>4 Pending</td>
+            </tr>
+            <tr class="clickable-row" onclick="viewDetails('marks')">
+                <td> Subjects Marks</td>
+                <td> (CGPA: 8.2)</td>
+            </tr>
+            <tr class="clickable-row" onclick="viewDetails('performance')">
+                <td> Performance</td>
+                <td>Good Standing</td>
+            </tr>
+        </table>
+
+        <div class="footer-links">
+            <a href="../HOME.HTML">← Back to Home</a>
+        </div>
+        </center>       
+
+        <hr>
+        <footer>
+            <p>&copy; 2026 Student Hub. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
